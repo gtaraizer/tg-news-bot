@@ -11,7 +11,7 @@ from .storage import is_posted, mark_posted
 
 app = FastAPI(title="Autoposter Health")
 
-CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "1200"))
+CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "30"))
 RUN_ON_STARTUP = os.getenv("RUN_ON_STARTUP", "true").lower() == "true"
 
 logger = logging.getLogger("autoposter")
