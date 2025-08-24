@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn
+requests
+beautifulsoup4
+lxml
+readability-lxml
+feedparser
+openai>=1.0.0
+python-dotenv
